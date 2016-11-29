@@ -14,8 +14,14 @@ function signup() {
   }));
 };
 $(function() {
-  $(".form-signup").on('submit', function(e) {
+  $("#btn").click( function(e) {
+    var x = String($('#inputUsername').val()).length;
+    var y = String($('#inputPassword').val()).length;
+    if (x==12&&y==4) {
     e.preventDefault();
-    signup();
+    signup();}
+    else{
+      alert('输入有误');
+    }
   });
 });

@@ -5,7 +5,38 @@
 }
 body{
 	width: 100%;
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .container{
+	width: 20%;
+	text-align: center;
+}
+.list{
+	margin-top: 10%;
+}
+h2{
+	color: white;
+	margin-bottom: 5%;
+}
+.sr-only{
+	color: white;
+	margin-top: 5%;
+}
+input{
+	margin-top: 1%;
+	margin-bottom: 5%;
 	width: 100%;
+	border-radius: 10px;
+	outline: none;
+	height: 30px;
+	text-align: center;
+}
+.btn{
+	width: 100%;
+}
+#submit{
+	width: 50%;
+	margin-top: 5%;
 }

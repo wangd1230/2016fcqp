@@ -8,22 +8,31 @@
 	<script type="text/javascript" src="../js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="../js/ticket.js"></script>
 	<script type="text/javascript" src="../js/app.js"></script>
+     <script type="text/JavaScript">
+        window.history.forward(1);
+ </script>
 </head>
 <body>
     <div class="container">
-    	<div class="start">开始抢票</div>
+    	<div class="start" onclick="showdiv()">开始抢票</div>
     	<div class="success">
-    		<p>恭喜你抢到了票</p>
+    		<img src="../img/success.png" id="success">
     		<div class="tolist">
     			<a href="list.html">确定</a>
     		</div>
     	</div>
     	<div class="failed">
-    		<p>哎呦喂，没有抢到哦</p>
+    		<img src="../img/failed.png" id="failed">
     		<div class="tohome">
     			<a href="../index.html">确定</a>
     		</div>
     	</div>
+        <div class="end">
+            <p>啊哦，票已经抢完了...</p>
+            <div class="tohome">
+                <a href="../index.html">明天再继续～</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

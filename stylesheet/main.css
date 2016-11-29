@@ -5,7 +5,62 @@
 }
 body{
 	width: 100%;
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix{
+	*+height:1%;
 }
 .container{
 	width: 100%;
+}
+.header{
+	width: 100%;
+}
+#header{
+	width: 80%;
+}
+.rule{
+	width: 40%;
+	float: right;
+	margin-right: 5%; 
+}
+#rule{
+	width: 100%;
+}
+input{
+	width: 65%;
+	text-align: center;
+	border-radius: 10px;
+	outline: none;
+	height: 30px;
+	background-color: #e9e8da;
+	margin-top: 10%;
+}
+.form{
+	margin-top: 2%;
+	width: 20%;
+	float: right;
+}
+#btn{
+	width: 65%;
+	margin-top: 10%;
+}
+.footer{
+	width: 100%;
+	position: relative;
+}
+#footer{
+	width: 30%;
+	position: absolute;
+	margin-top: 1%;
+	left: 9%;
 }

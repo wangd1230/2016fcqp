@@ -5,33 +5,39 @@
 }
 body{
 	width: 100%;
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .container{
 	width: 100%;
 }
 .start{
-	line-height: 50px;
+	line-height: 60px;
 	text-align: center;
 	color: white;
-	background-color: black;
-	width: 100px;
-	height: 50px;
+	background-color: #f47f6d;
+	width: 120px;
+	height: 60px;
 	cursor: pointer;
+	border-radius: 12px;
+	margin-top: 20%;
 }
-.success,.failed{
+.success,.failed,.end{
 	position: fixed;
 	top: 10%;
 	left: 25%;
 	text-align: center;
 	color: white;
 	display: none;
-	background-color: black;
-	opacity: 0.8;
+	
+	
 	width: 50%;
-	height: 100px;
+
 	z-index: 999;
 }
 .tolist,.tohome{
+	border-radius: 10px;
 	background-color: white;
 	color: black;
 	width: 20%;
@@ -43,4 +49,13 @@ a{
 	text-decoration: none;
 	color: black;
 	display: block;
+}
+#success{
+	width: 100%;
+}
+#failed{
+	width: 100%;
+}
+p{
+	color: white;
 }
