@@ -5,6 +5,7 @@
 }
 body{
 	width: 100%;
+	background-color: black;
 	
 }
 .container{
@@ -41,10 +42,10 @@ body{
 }
 .footer{
 	width: 100%;
-	margin-top: 23%;
+	margin-top: 18%;
 }
 #footer{
-	width: 50%;
+	width: 40%;
 	margin-left: 5%;
 }
 .success,.failed{

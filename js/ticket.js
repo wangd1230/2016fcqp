@@ -26,25 +26,10 @@ $(document).ready(function(){
 	var ticket;
 	var sum;
 	//
-	ticket = AV.Object.createWithoutData('Ticket', '583d7133128fe1006bf395f4');
+	ticket = AV.Object.createWithoutData('Ticket', '583e382aa22b9d006a97595e');
         ticket.fetch().then(function () {
         sum = ticket.get('number');// 读取 title
- 
-  }, function (error) {
-    // 异常处理
-  });
-	//
-	function update() {
-                var tic = AV.Object.createWithoutData('Ticket', '583d7133128fe1006bf395f4');
-                // 修改属性
-                tic.set('number', sum);
-                // 保存到云端
-                tic.save();
-                }
-         //
-		
-    //
-    if (sum>0) {
+         if (sum>0) {
 	$('.start').click(function(){
 		var x;		
 		x = Math.round(Math.random()*10);
@@ -65,4 +50,40 @@ $(document).ready(function(){
     	showdiv();
     	$('.end').css("display","block");
     }
+  }, function (error) {
+    // 异常处理
+  });
+	//
+	function update() {
+                var tic = AV.Object.createWithoutData('Ticket', '583e382aa22b9d006a97595e');
+                // 修改属性
+                tic.set('number', sum);
+                // 保存到云端
+                tic.save();
+                }
+         //
+		
+    //
+     
+ //    if (sum>0) {
+	// $('.start').click(function(){
+	// 	var x;		
+	// 	x = Math.round(Math.random()*10);
+	// 	console.log(x);
+	// 	if (x==3||x==6||x==9) {
+	// 		$('.success').css("display","block");
+	// 		sum -=1;
+	// 		update();
+	// 	}
+	// 	else{
+			
+	// 		$('.failed').css("display","block");
+	// 	}
+	// })
+ //    }
+ //    else{
+ //    	// alert('票抢完了');
+ //    	showdiv();
+ //    	$('.end').css("display","block");
+ //    }
 })

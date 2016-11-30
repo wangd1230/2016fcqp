@@ -5,6 +5,7 @@
 }
 body{
 	width: 100%;
+	background-color: black;
 	
 }
 .clearfix:after{
@@ -62,8 +63,8 @@ input{
 
 }
 #footer{
-	width: 60%;
-	margin-top: 10%;
+	width: 40%;
+	margin-top: 8%;
 	margin-left: 5%;
 
 }
