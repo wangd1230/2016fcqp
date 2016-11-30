@@ -15,13 +15,14 @@ function signup() {
 };
 $(function() {
   $("#btn").click( function(e) {
-    var x = String($('#inputUsername').val()).length;
-    var y = String($('#inputPassword').val()).length;
-    if (x==12&&y==4) {
-    e.preventDefault();
-    signup();}
-    else{
-      alert('输入有误');
-    }
+    // var x = String($('#inputUsername').val()).length;
+    // var y = String($('#inputPassword').val()).length;
+    // if (x==12&&y==4) {
+    // e.preventDefault();
+    // signup();}
+    // else{
+    //   alert('输入有误');
+    // }
+    alert('抢票系统暂时关闭')
   });
 });
