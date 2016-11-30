@@ -31,7 +31,7 @@ body{
 	width: 90%;
 }
 .rule{
-	width: 85%;
+	width: 90%;
 	margin-top: 20%;
 	/*float: right;*/
 	/*margin-right: 5%; */
@@ -60,11 +60,12 @@ input{
 }
 .footer{
 	width: 100%;
+	margin-top: 8%;
 
 }
 #footer{
 	width: 40%;
-	margin-top: 8%;
+
 	margin-left: 5%;
 
 }
