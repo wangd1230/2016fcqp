@@ -5,9 +5,7 @@
 }
 body{
 	width: 100%;
-	background-image: url(../img/bg.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
+	
 }
 .clearfix:after{
 	content:".";
@@ -21,17 +19,21 @@ body{
 }
 .container{
 	width: 100%;
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .header{
 	width: 100%;
 }
 #header{
-	width: 80%;
+	width: 90%;
 }
 .rule{
-	width: 40%;
-	float: right;
-	margin-right: 5%; 
+	width: 85%;
+	margin-top: 20%;
+	/*float: right;*/
+	/*margin-right: 5%; */
 }
 #rule{
 	width: 100%;
@@ -41,14 +43,15 @@ input{
 	text-align: center;
 	border-radius: 10px;
 	outline: none;
-	height: 30px;
+	height: 50px;
 	background-color: #e9e8da;
 	margin-top: 10%;
 }
 .form{
-	margin-top: 2%;
-	width: 20%;
-	float: right;
+	margin-top: 15%;
+	width: 40%;
+	margin-right: 6%;
+	/*float: right;*/
 }
 #btn{
 	width: 65%;
@@ -56,11 +59,11 @@ input{
 }
 .footer{
 	width: 100%;
-	position: relative;
+
 }
 #footer{
-	width: 30%;
-	position: absolute;
-	margin-top: 1%;
-	left: 9%;
+	width: 60%;
+	margin-top: 10%;
+	margin-left: 5%;
+
 }
