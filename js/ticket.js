@@ -34,7 +34,7 @@ $(document).ready(function(){
 		var x;		
 		x = Math.round(Math.random()*10);
 		console.log(x);
-		if (x==3||x==6||x==9) {
+		if (x==2||x==4||x==6||x==8) {
 			$('.success').css("display","block");
 			sum -=1;
 			update();
@@ -65,6 +65,7 @@ $(document).ready(function(){
 		
     //
      
+
  //    if (sum>0) {
 	// $('.start').click(function(){
 	// 	var x;		
